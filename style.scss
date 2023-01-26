@@ -1,2 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 @import "bootstrap-icons/font/bootstrap-icons.css";
+@import "hamburgers/dist/hamburgers.css";
+@import "animate.css/animate.css";
+$font-family-sans-serif:'Montserrat', sans-serif;
+$navbar-nav-link-padding-x:1.5rem;
+$primary:#007822;
+$btn-padding-x:1rem;
+$btn-padding-y:0.75rem;
+$btn-font-size:0.75rem;
+$btn-font-size-lg:1rem;
+$btn-padding-x-lg:1.75rem;
+$btn-padding-Y-lg:.75rem;
+$border-radius:.5rem;
+$border-radius-lg:.75rem;
 @import "bootstrap/scss/bootstrap";
+
+
+.nav-link.active{
+  color:white !important;
+  transition:transform 0.3s;
+};
+.brand-icon{
+  height:40px;
+  transition: 0.5s ease;
+};
+.nav-custom{
+  &:hover .brand-icon{
+    transform: rotate(360deg);
+  }
+  &:hover .nav-link.active{
+    transform: translateY(-3px);
+  }
+}
+
+.service{
+  text-align: center;
+  svg{
+    fill: $primary;
+  }
+}
+.plate{
+  transition: 0.5s;
+  img{
+    transition: 0.5s ease;
+  }
+  &:hover{
+    transform: translateY(-15px) !important;
+  }
+  &:hover img{
+    transform: rotate(45deg) !important;
+  }
+}
+
