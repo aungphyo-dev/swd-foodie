@@ -6,15 +6,20 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Foodie</title>
-  <link rel="stylesheet" href="">
-  <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Foodie">
+    <meta property="og:description" content="Foodie site lay yay kyi tar:33">
+    <meta property="og:image" content="https://github.com/typle445/swd-foodie/blob/master/img/preview.png">
+  <link rel="shortcut icon" href="public/img/icon.png" type="image/x-icon">
 </head>
 <body>
-<header class="fixed-top sticky-sm-top ">
+<header class="fixed-top">
     <nav class="navbar navbar-expand-lg bg-white nav-custom">
         <div class="container  ">
             <a class="navbar-brand" href="#">
-                <img src="./img/icon.png" class="brand-icon"  alt="">
+                <img src="public/img/icon.png" class="brand-icon" alt="">
                 <span class="fw-bolder brand-name">Foodie</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,11 +49,11 @@
 </header>
 <main>
     <section class="py-5 py-md-0"></section>
-    <section  id="home">
+    <section id="home">
         <div class="container">
             <div class="row  min-vh-100 justify-content-evenly align-items-center" id="home-content">
                 <div class="col-12 col-md-6 col-lg-5">
-                    <div class="">
+                    <div class="mb-3 mb-md-0">
                         <h1 class="text-primary display-4 fw-bold mb-4 todown">Tasty <span class="counter"></span></h1>
                         <p class="text-black-50 mb-4 todown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt inventore itaque nesciunt omnis voluptatibus? Accusamus blanditiis culpa dolorum iste iure, molestias quam quibusdam suscipit. Nesciunt possimus quae quis ullam unde?</p>
                         <h4 class="fw-bold mb-4 todown">Join The Best Food Of Week</h4>
@@ -64,16 +69,16 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-5">
-                    <img src="./img/home.png" class="d-block w-100 todown" alt="">
+                    <img src="public/img/home.png" class="d-block w-100 todown" alt="">
                 </div>
             </div>
         </div>
     </section>
     <section class="bg-light " id="about">
-        <div class="container">
-            <div class="min-vh-100 row row  justify-content-evenly align-items-center">
+        <div class="container mb-3 mb-md-0">
+            <div class="min-vh-100 row row flex-column-reverse flex-md-row  justify-content-evenly align-items-center">
                 <div class="col-12 col-md-5 col-lg-4">
-                    <img src="./img/about.jpg" class="d-block w-100 shadow toright" alt="">
+                    <img src="public/img/about.jpg" class="d-block w-100 shadow toright" alt="">
                 </div>
                 <div class="col-12 col-md-5 col-lg-4">
                     <p class="text-primary fw-bold toleft">About</p>
@@ -308,7 +313,7 @@
                 </div>
                 <div class="col-8 col-md-4 col-lg-3">
                     <div class="card mb-5 mb-lg-0 border-0 shadow plate">
-                        <img src="img/plate1.png" class="card-img d-block w-75 mx-auto my-4" alt="">
+                        <img src="public/img/plate1.png" class="card-img d-block w-75 mx-auto my-4" alt="">
                         <div class="card-body">
                             <p class="fw-bold">Barbecue Slad</p>
                             <p class="text-black-50 small">
@@ -325,7 +330,7 @@
                 </div>
                 <div class="col-8 col-md-4 col-lg-3">
                     <div class="card mb-5 mb-lg-0 border-0 shadow plate">
-                        <img src="img/plate2.png" class="card-img d-block w-75 mx-auto my-4" alt="">
+                        <img src="public/img/plate2.png" class="card-img d-block w-75 mx-auto my-4" alt="">
                         <div class="card-body">
                             <p class="fw-bold">Slad With Fish</p>
                             <p class="text-black-50 small">
@@ -342,7 +347,7 @@
                 </div>
                 <div class="col-8 col-md-4 col-lg-3">
                     <div class="card mb-5 mb-lg-0 border-0 shadow plate">
-                        <img src="img/plate1.png" class="card-img d-block w-75 mx-auto my-4" alt="">
+                        <img src="public/img/plate1.png" class="card-img d-block w-75 mx-auto my-4" alt="">
                         <div class="card-body">
                             <p class="fw-bold">Spinach Slad</p>
                             <p class="text-black-50 small">
@@ -362,7 +367,7 @@
         <div class="container">
             <div class="min-vh-100 row  justify-content-evenly align-items-center">
                 <div class="col-12 col-md-5 col-lg-4">
-                    <img src="./img/movil-app.png" class="d-block w-100 toright" alt="">
+                    <img src="public/img/movil-app.png" class="d-block w-100 toright" alt="">
                 </div>
                 <div class="col-12 col-md-5 col-lg-4">
                     <p class="text-primary fw-bold">Application</p>
@@ -370,10 +375,10 @@
                     <p class="text-black-50 mb-4 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eos esse et, exercitationem inventore ipsa iure, magnam magni nam</p>
                    <div class="">
                        <a href="#" class="text-decoration-none ">
-                           <img src="./img/app1.png" class="w-25" alt="">
+                           <img src="public/img/app1.png" class="w-25" alt="">
                        </a>
                        <a href="#" class="text-decoration-none ">
-                           <img src="./img/app2.png" class=" w-25" alt="">
+                           <img src="public/img/app2.png" class=" w-25" alt="">
                        </a>
                    </div>
                 </div>
@@ -382,7 +387,91 @@
     </section>
 </main>
 <footer>
+    <section id="contact">
+        <div class="bg-light py-5">
+            <section  class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-12 col-lg-5">
+                        <div class="content">
+                            <p class="text-primary mb-0">Let's talk</p>
+                            <h4 class="fw-bold">Contact Us</h4>
+                            <p class="mb-3 mb-lg-0 text-black-50">
+                                Expedita Inventore Magni Modi Molestiae Mollitia Non Odit Provident, Similique Suscipit, Tempora Temporibus Voluptatum. Temporibus Voluptatum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-lg-2 align-self-end">
+                        <div class="content" data-sr-id="15" >
+                            <a href="#" class="btn btn-primary">Contact Us Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-9">
+                        <hr class="mb-5 mt-0">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-2">
+                        <div class="content" >
+                            <h4 class="fw-bold mb-3">Tasty Food</h4>
 
+                            <a href="#" class="text-decoration-none social-link">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#" class="text-decoration-none social-link">
+                                <i class="fa-brands fa-google"></i>
+                            </a>
+                            <a href="#" class="text-decoration-none social-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <p class="small text-black-50 mb-1">Social Links</p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-6 col-md-4">
+                                <div class="content mb-5 mb-md-0" >
+                                    <p class="fw-bold">Services</p>
+                                    <div class="d-flex flex-column">
+                                        <a href="#" class="text-black-50 text-decoration-none">Delivery</a>
+                                        <a href="#" class="text-black-50 text-decoration-none">Pricing</a>
+                                        <a href="#" class="text-black-50 text-decoration-none">Fast Food</a>
+                                        <a href="#" class="text-black-50 text-decoration-none">Reserve your spot</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <div class="content mb-5 mb-md-0" >
+                                    <p class="fw-bold">Pages</p>
+                                    <div class="d-flex flex-column">
+                                        <a href="#" class="text-black-50 text-decoration-none">Event</a>
+                                        <a href="#" class="text-black-50 text-decoration-none">Contact Us</a>
+                                        <a href="#" class="text-black-50 text-decoration-none">Privacy Policy</a>
+                                        <a href="#" class="text-black-50 text-decoration-none">Terms of services</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <div class="content mb-5 mb-md-0">
+                                    <p class="fw-bold">Information</p>
+                                    <div class="d-flex flex-column">
+                                        <a href="#" class="text-black-50 text-decoration-none">Ygn, Tamwe</a>
+                                        <a href="#" class="text-black-50 text-decoration-none">No 7/9, Zay Street</a>
+                                        <a href="#" class="text-black-50 text-decoration-none">09250152018</a>
+                                        <a href="#" class="text-black-50 text-decoration-none">cto@mmt-it.com</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
 </footer>
 
 

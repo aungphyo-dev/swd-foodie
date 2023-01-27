@@ -31,7 +31,7 @@ let Toup = {
 ScrollReveal().reveal('.toup', Toup);
 let Toright = {
     distance: '100px',
-    origin: 'left',
+    origin: 'top',
     interval:350,
     duration:900,
 };
@@ -40,7 +40,7 @@ ScrollReveal().reveal('.toright', Toright);
 
 let Toleft = {
     distance: '100px',
-    origin: 'right',
+    origin: 'bottom',
     interval:350,
     duration:900,
 };
